@@ -2,6 +2,7 @@ name = "remix-boilerplate-cloudflare-workers"
 main = "./build/index.js"
 compatibility_date = "2022-04-05"
 compatibility_flags = ["streams_enable_constructors"]
+send_metrics = false
 
 [site]
   bucket = "./public"
