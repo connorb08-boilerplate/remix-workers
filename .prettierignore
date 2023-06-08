@@ -1,0 +1,5 @@
+node_modules
+public
+build
+app/styles/tailwind.css
+.yarn/releases/

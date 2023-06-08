@@ -1,0 +1,22 @@
+{
+  "name": "remix-cloudflare-boilerplate",
+  "image": "mcr.microsoft.com/devcontainers/base:ubuntu",
+  "features": {
+    "ghcr.io/devcontainers/features/node:1": {
+      "version": "20.2.0"
+    },
+    "ghcr.io/rocker-org/devcontainer-features/apt-packages:1": {
+      "packages": "libc++-dev"
+    }
+  },
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "esbenp.prettier-vscode",
+        "GitHub.copilot",
+        "bradlc.vscode-tailwindcss"
+      ]
+    }
+  },
+  "postStartCommand": "yarn install"
+}

@@ -1,0 +1,22 @@
+{
+    "folders": [
+        {
+            "path": "."
+        }
+    ],
+    "settings": {
+        "editor.codeActionsOnSave": {
+            "source.fixAll.eslint": true
+        },
+        "editor.formatOnSave": true,
+        "editor.defaultFormatter": "esbenp.prettier-vscode",
+        "prettier.prettierPath": "./node_modules/prettier",
+        "prettier.configPath": "./.prettierrc.json",
+        "editor.insertSpaces": true,
+        "editor.tabSize": 4,
+        "[python]": {
+            "editor.defaultFormatter": "ms-python.black-formatter"
+        },
+        "python.formatting.provider": "none"
+    }
+}
